@@ -94,6 +94,11 @@ export const Brands = () => {
 
 export const BestSellers = () => {
   const navigate = useNavigate();
+  const data=[
+    {src: "/GenInfo/adidas.jpg",name:"Adidas",to:"/search/adidas"},
+    {src: "/GenInfo/nike.jpg",name:"Nike",to:"/search/nike"}
+    
+  ]
 
   return (
     <div className="flex flex-col items-center my-16 w-full">
